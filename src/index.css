@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  font-family: Georgia, serif;
+  height: 100%;
+  margin-top: 1em;
+}
+
+.quote-box {
+  background-color: whitesmoke;
+  width: 66%;
+  margin-right: auto;
+  margin-left: auto;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  height: auto;
+ 
+}
+
+.button {
+  color: black;
+  background-color: whitesmoke;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 1em;
+  padding: .5em;
+}
+
+.button:hover {
+  background-color: #606060;
+  color: white;
+}
+
+#author {
+  font-style: italic;
+  font-size: 1.3em;
+  font-style: italic;
+}

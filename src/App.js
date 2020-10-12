@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Random Quote Generator</h1>
-        <h3>Generate Random Quotes and Tweet</h3>
+        <h3>Generate Random Quotes and Tweet Them</h3>
         <hr></hr>
         <Quote />
     </div>

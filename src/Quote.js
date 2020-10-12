@@ -40,11 +40,11 @@ class Quote extends Component{
 
     render(){
         return (
-            <div className="quoteBox">
+            <div className="quote-box">
                     <h1 className="quote">{this.state.quote}</h1>
                     <h2 className="author">~ {this.state.author}</h2>
-                    <button onClick={this.newQuote}>New Quote</button>
-                    <button onClick={this.tweet}>Tweet</button>
+                    <button onClick={this.newQuote}className="button"><i class="fa fa-fw fa-quote-left"></i> New Quote</button>
+                    <button onClick={this.tweet}className="button"><i className="fa fa-twitter"></i> Tweet</button>
                 </div>
            
         )
