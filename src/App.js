@@ -1,17 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Quote from './Quote.js';
+import Author from './Author.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hey there!
-        </p>
-        
-      </header>
+      <h1>Random Quote Generator</h1>
+        <h3>Generate Random Quotes and Tweet</h3>
+        <hr></hr>
+        <Quote />
+        <Author />
     </div>
   );
 }
