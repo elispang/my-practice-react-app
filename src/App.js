@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Quote from './Quote.js';
-import Author from './Author.js';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
         <h3>Generate Random Quotes and Tweet</h3>
         <hr></hr>
         <Quote />
-        <Author />
     </div>
   );
 }
